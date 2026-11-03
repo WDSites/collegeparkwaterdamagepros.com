@@ -326,7 +326,7 @@ main h2+p,main h3+p{margin-top:14px}
   .nav-inner{min-height:64px}
 }
 @media(max-width:600px){
-  .cards,.cards.two,.why,.blogcards,.areas,.steps,.footer-grid{grid-template-columns:1fr}
+  .cards,.cards.two,.why,.blogcards,.areas,.steps,.footer-grid{grid-template-columns:minmax(0,1fr)}
   .wrap{padding:0 18px}
   .strip-inner{flex-direction:column}
   .logo img,.site-footer .footer-logo img{width:190px;height:44px}
@@ -365,3 +365,6 @@ main h2+p,main h3+p{margin-top:14px}
 .sticky-call{z-index:90}
 .pagehead.has-hero .zips-lbl{color:#E3DDD1}
 .pagehead.has-hero .zip-chip.primary{background:var(--rust);border-color:var(--rust);color:#fff}
+.svc-groups h2{margin:44px 0 8px}
+.svc-groups>p{max-width:62ch;color:var(--gray)}
+.site-footer address,.site-footer p,.site-footer a{overflow-wrap:anywhere}
