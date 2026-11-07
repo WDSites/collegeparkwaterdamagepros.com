@@ -368,3 +368,7 @@ main h2+p,main h3+p{margin-top:14px}
 .svc-groups h2{margin:44px 0 8px}
 .svc-groups>p{max-width:62ch;color:var(--gray)}
 .site-footer address,.site-footer p,.site-footer a{overflow-wrap:anywhere}
+.nb-links{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+.nb-link{display:inline-block;padding:9px 16px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--char);font-weight:600;text-decoration:none}
+.nb-link:hover{border-color:var(--rust);color:var(--rust)}
+.sec .wrap>h3{margin-top:30px}
